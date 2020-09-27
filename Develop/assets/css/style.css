@@ -4,9 +4,7 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
+body {background-color: #d9dcd6;}
 
 header {
     padding: 20px;
@@ -20,9 +18,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1{
-    color: #d9dcd6;
-}
+.seo{color: #d9dcd6;} /*colors the words in grey*/
 
 header nav {
     padding-top: 15px;
@@ -32,9 +28,7 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
+header nav ul {list-style-type: none;}
 
 header nav ul li {
     display: inline-block;
@@ -46,10 +40,9 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+p {font-size: 16px;}
 
+/*customize the background picture of the webpage*/
 .hero {
     height: 800px;
     width: 100%;
@@ -161,17 +154,11 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
+.search-engine-optimization img {max-height: 200px;}
 
-.online-reputation-management img {
-    max-height: 200px;
-}
+.online-reputation-management img {max-height: 200px;}
 
-.social-media-marketing img {
-    max-height: 200px;
-}
+.social-media-marketing img {max-height: 200px;}
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -190,11 +177,10 @@ p {
 
 footer {
     padding: 30px;
-    clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
 }
 
 footer h2 {
+    margin-left: -11px;
     font-size: 20px;
 }
