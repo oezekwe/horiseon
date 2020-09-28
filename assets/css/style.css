@@ -52,20 +52,22 @@ p {font-size: 16px;}
     background-position: center;
 }
 
+/*Moves all items to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Moves all items to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
 .content {
-    width: 75%;
+    width: 70%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .benefits {
@@ -79,54 +81,23 @@ p {font-size: 16px;}
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/*Controls Search Engine Optimization spacing and formating*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -136,6 +107,7 @@ p {font-size: 16px;}
     color: #ffffff;
 }
 
+/*Controls Online Reputation Management spacing and formating*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -145,6 +117,7 @@ p {font-size: 16px;}
     color: #ffffff;
 }
 
+/*Controls Social Media Marketing spacing and formating*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -180,7 +153,4 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-footer h2 {
-    margin-left: -11px;
-    font-size: 20px;
-}
+footer h2 {font-size: 20px;}
